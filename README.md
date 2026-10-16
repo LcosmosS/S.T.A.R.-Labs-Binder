@@ -22,3 +22,15 @@ The root `requirements.txt` pins only NumPy and Matplotlib; Jupyter is supplied 
 ## Research integrity
 
 All examples are synthetic or pedagogical and have no inferential endpoint. No notebook execution should be reported as a registered scientific result. For controlled experiments, use the [canonical S.T.A.R.-Labs repository](https://github.com/LcosmosS/S.T.A.R.-Labs).
+
+## Temporary research-themed demonstrations
+
+The following five notebooks are **standalone pedagogical adaptations** of concepts appearing in the main repository. They are **not copies of the original scientific computations**. All inputs are synthetic, all outputs are non-evidentiary, and no registered experiment is executed. Source links and methodological limitations are stated inside each notebook.
+
+1. [Logarithmic arithmetic projection](notebooks/02_projection_from_source.ipynb) — synthetic coordinate transform
+2. [Scalar field and derivatives](notebooks/03_entropy_field_from_source.ipynb) — Gaussian toy field, not thermodynamic entropy
+3. [Illustrative geodesics](notebooks/04_geodesics_from_source.ipynb) — great circles on a unit sphere, not spacetime
+4. [Metric perturbations](notebooks/05_metric_perturbations_from_source.ipynb) — positive-definite matrix toy model, not gravitational field equations
+5. [Topology-inspired stability](notebooks/06_tda_stability_from_source.ipynb) — distance-matrix sensitivity, **not** persistent homology
+
+These demonstrations are intended to be replaced by independently reviewed scientific notebooks once their source data, software environment, reproducibility tests, and relevant protocol requirements are ready. Replacing a demonstration does not change any evidence or execution eligibility flag in the canonical research repository.
